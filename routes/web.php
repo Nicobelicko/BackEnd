@@ -20,3 +20,26 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('/index');
 });
+
+Route::get('/', function () {
+    return view('/about');
+});
+
+Route::get('/', function () {
+    return view('/blogpost');
+});
+
+Route::get('/', function () {
+    return view('/contact');
+});
+
+Route::get('/', function () {
+    return view('/drivers');
+});
+
+Route::get('/', function () {
+    return view('/gallery');
+});
+
+
+
