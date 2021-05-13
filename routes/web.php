@@ -18,27 +18,27 @@ Route::get('/', function () {
 });
 
 Route::get('/', function () {
-    return view('/index');
+    return view('index');
 });
 
 Route::get('/about', function () {
-    return view('/about');
+    return view('about');
 });
 
 Route::get('/blogpost', function () {
-    return view('/blogpost');
+    return view('blogpost');
 });
 
 Route::get('/contact', function () {
-    return view('/contact');
+    return view('contact');
 });
 
 Route::get('/drivers', function () {
-    return view('/drivers');
+    return view('drivers');
 });
 
 Route::get('/gallery', function () {
-    return view('/gallery');
+    return view('gallery');
 });
 
 
