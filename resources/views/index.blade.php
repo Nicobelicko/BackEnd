@@ -565,7 +565,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       });
     </script>
     <!-- /js for banner section -->
-    <script src="js/vendor/pristine.min.js"></script>
+ 
 </body>
 
 </html>
