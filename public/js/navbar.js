@@ -9,12 +9,12 @@ function init(){
 function asignarVariables() {
 	console.log("ENTRA A asignar variables");
 	
-  sesiones["about.html"] = document.getElementById("about.html");
-  sesiones["gallery.html"] = document.getElementById("gallery.html");
+  sesiones["about"] = document.getElementById("about");
+  sesiones["gallery"] = document.getElementById("gallery");
   
-  sesiones["drivers.html"] = document.getElementById("drivers.html");
-  sesiones["index.html"] = document.getElementById("index.html");
-  sesiones["contact.html"] = document.getElementById("contact.html");
+  sesiones["drivers"] = document.getElementById("drivers");
+  sesiones["index"] = document.getElementById("index");
+  sesiones["contact"] = document.getElementById("contact");
 }
 function asignarEventos(){
 	console.log("ENTRA A asignar eventos");

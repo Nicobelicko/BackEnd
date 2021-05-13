@@ -23,7 +23,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav slide-nav">
-                    <li><a id="index.html" href="index.html">volver</a></li>
+                    <li><a id="index" href="index.html">volver</a></li>
                   
             </div><!--/.nav-collapse -->
         </div>

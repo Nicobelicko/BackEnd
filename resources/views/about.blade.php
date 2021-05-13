@@ -38,14 +38,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav slide-nav">
-				<li><a id="index.html" href="javascript:void(0);">Inicio</a></li>
-				<li class="active current"><a id = "about.html"  href="javascript:void(0);">Acerca de</a></li>
+				<li><a id="index" href="javascript:void(0);">Inicio</a></li>
+				<li class="active current"><a id = "about"  href="javascript:void(0);">Acerca de</a></li>
 				
             
-            <li><a id="gallery.html" href="javascript:void(0);">Galeria</a></li>
-            <li><a id="drivers.html" href="javascript:void(0);">Conductores</a></li>
+            <li><a id="gallery" href="javascript:void(0);">Galeria</a></li>
+            <li><a id="drivers" href="javascript:void(0);">Conductores</a></li>
 				
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="contact">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
 	
@@ -212,13 +212,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
-<<<<<<< HEAD
+
 						<p></p> 
 						<p>Phasellus ac velit quis nunc tempus iaculis. Etiam ac lectus ullamcorper massa luctus gravida. </p>
-=======
+
 						<p>Soy un estudiante de ingenieria en sistemas e informática, actualmente cursando el 5to semestre en la Universidad Pontificia Bolivariana</p> 
 						<p>Apasionado por el diseño y programación mi objetivo es dar valor al trabajo y personas. </p>
->>>>>>> 007596b6a3085303cb523debcb1210cc56d12f64
+
 					</div>
 					<div class="clearfix"></div>
 				</div>

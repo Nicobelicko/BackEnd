@@ -18,10 +18,10 @@ if ($uri !== '/' && file_exists(__DIR__.'/public'.$uri)) {
     return false;
 }
 
-require_once __DIR__.'/public/index.blade.php';
-require_once __DIR__.'/public/about.blade.php';
-require_once __DIR__.'/public/blogpost.blade.php';
+require_once __DIR__.'/public/index.php';
+//require_once __DIR__.'/public/index.php';
+/*require_once __DIR__.'/public/blogpost.blade.php';
 require_once __DIR__.'/public/contact.blade.php';
 require_once __DIR__.'/public/drivers.blade.php';
 require_once __DIR__.'/public/gallery.blade.php';
-require_once __DIR__.'/public/api.blade.php';
+require_once __DIR__.'/public/api.blade.php';*/

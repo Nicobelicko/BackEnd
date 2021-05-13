@@ -14,12 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Hola mundo";
-});
-
-Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/index', function () {
+    return view('index');
+});
+
 
 Route::get('/about', function () {
     return view('about');
@@ -39,6 +40,10 @@ Route::get('/drivers', function () {
 
 Route::get('/gallery', function () {
     return view('gallery');
+});
+
+Route::get('/api', function () {
+    return view('api');
 });
 
 

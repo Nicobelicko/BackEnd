@@ -37,13 +37,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav slide-nav">
-				<li><a id="index.html" href="javascript:void(0);">Inicio</a></li>
-				<li><a id="about.html" href="javascript:void(0);">Acerca de</a></li>
+				<li><a id="index" href="javascript:void(0);">Inicio</a></li>
+				<li><a id="about" href="javascript:void(0);">Acerca de</a></li>
 				
             
-            <li><a id="gallery.html" href="javascript:void(0);">Galeria</a></li>
-				<li><a id="drivers.html" href="javascript:void(0);">Conductores</a></li>
-                <li><a id = "contact.html"  href="javascript:void(0);">Contacto</a></li>
+            <li><a id="gallery" href="javascript:void(0);">Galeria</a></li>
+				<li><a id="drivers" href="javascript:void(0);">Conductores</a></li>
+                <li><a id = "contact"  href="javascript:void(0);">Contacto</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
 		<div class="search1">
