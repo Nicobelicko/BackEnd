@@ -21,23 +21,23 @@ Route::get('/', function () {
     return view('/index');
 });
 
-Route::get('/', function () {
+Route::get('/about', function () {
     return view('/about');
 });
 
-Route::get('/', function () {
+Route::get('/blogpost', function () {
     return view('/blogpost');
 });
 
-Route::get('/', function () {
+Route::get('/contact', function () {
     return view('/contact');
 });
 
-Route::get('/', function () {
+Route::get('/drivers', function () {
     return view('/drivers');
 });
 
-Route::get('/', function () {
+Route::get('/gallery', function () {
     return view('/gallery');
 });
 
