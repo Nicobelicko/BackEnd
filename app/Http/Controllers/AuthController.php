@@ -16,17 +16,18 @@ class AuthController extends Controller
         $request->validate([
             'name'=> 'required',
             'email'=> 'required|email|unique:users',
-            'password'=>'required|min:6'
             'cellphone' => 'nullable',
-            'address' => 'nullable'
+            'address' => 'nullable',
+            'password'=>'required|min:6'
         ]);
 
         $user=User::create([
             'name' => $request->name,
             'email' => $request->email,
-            'password' => Hash::make($request->password),
             'cellphone' =>$request->cellphone,
-            'address' => $request->address
+            'address' => $request->address,
+            'password' => Hash::make($request->password),
+          
         ]);
         $user->save();
         $token = $user->createToken($user->email.'-'.now());
