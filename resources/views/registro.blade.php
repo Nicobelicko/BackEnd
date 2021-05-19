@@ -14,6 +14,8 @@
         window.onload = () =>{
            boton =  document.getElementById("btn-registrarse");
            name = document.getElementById("input-name");
+           telefono = document.getElementById("input-telefono");
+           direccion = document.getElementById("input-direccion");
            email = document.getElementById("input-email");
            password = document.getElementById("input-contraseña");
 
@@ -56,6 +58,14 @@
             </div>
             <div class="gru">
                 <input type="email" name="email" id="input-email" required><span class="barra"></span>
+                <label>Email</label>
+            </div>
+            <div class="gru">
+                <input type="text" name="telefono" id="input-telefono" required><span class="barra"></span>
+                <label>Email</label>
+            </div>
+            <div class="gru">
+                <input type="text" name="direccion" id="input-direccion" required><span class="barra"></span>
                 <label>Email</label>
             </div>
             <div class="gru">
