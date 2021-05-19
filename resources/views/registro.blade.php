@@ -61,11 +61,11 @@
                 <label>Email</label>
             </div>
             <div class="gru">
-                <input type="text" name="telefono" id="input-telefono" required><span class="barra"></span>
+                <input type="text" name="cellphone" id="input-cellphone" required><span class="barra"></span>
                 <label>Email</label>
             </div>
             <div class="gru">
-                <input type="text" name="direccion" id="input-direccion" required><span class="barra"></span>
+                <input type="text" name="address" id="input-address" required><span class="barra"></span>
                 <label>Email</label>
             </div>
             <div class="gru">
