@@ -23,6 +23,8 @@
             enviarDatos({
                 name:name.value,
                 email:email.value,
+                cellphone:cellphone.value,
+                address:address.value,
                 password:password.value
             });
            });
@@ -35,6 +37,8 @@
                 data:{
                     name:datos.name,
                     email:datos.email,
+                    cellphone:datos.cellphone,
+                    address:datos.address,
                     password:datos.password
                     }
                 }).then((data)=>{
