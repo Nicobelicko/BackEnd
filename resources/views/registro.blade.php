@@ -66,11 +66,11 @@
             </div>
             <div class="gru">
                 <input type="text" name="cellphone" id="input-cellphone" required><span class="barra"></span>
-                <label>Email</label>
+                <label>Telefono</label>
             </div>
             <div class="gru">
                 <input type="text" name="address" id="input-address" required><span class="barra"></span>
-                <label>Email</label>
+                <label>Dirección</label>
             </div>
             <div class="gru">
                 <input type="password" name="password" id="input-contraseña" required><span class="barra"></span>
