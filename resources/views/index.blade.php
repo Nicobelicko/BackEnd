@@ -41,18 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <!-- navigation -->
   <nav class="navbar navbar-default navbar-fixed-top" data-aos="flip-up">
     <div class="container">
-      <div class="search1">
-        <form action="#" method="post">
-          <div class="input-group">
-
-            <span class="input-group-btn">
-
-              <i class="fa fa-search"></i>
-              </button>
-            </span>
-          </div>
-        </form>
-      </div>
+      
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
           aria-expanded="false" aria-controls="navbar">
@@ -74,64 +63,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <li><a id="gallery" href="javascript:void(0);">Galeria</a></li>
           <li><a id="drivers" href="javascript:void(0);">Conductores</a></li>
           <li><a id="contact" href="javascript:void(0);">Contacto</a></li>
-          <li class="nav-item" id="frm">
-            <div class="center">
-              <input type="checkbox" id="show">
-              <label  for="show" class="show-btn"><a id="label-login" class="nav-link">Iniciar Sesión</a></label>
-              <div class="container1">
-                <label for="show" class="close-btn fas fa-times" title="close"></label>
-                <div class="text">Inicio de Sesion</div>
-                <form action="#" class="form1">
-                  <div class="data">
-                    <label>Usuario/label>
-                    <input type="text" name="nom" required >
-                  </div>
-                  <div class="data">
-                    <label>Contreseña</label>
-                    <input type="password" name="contra" required>
-                  </div>
-                  <div class="forgot-pass">
-                    <a href="#">¿Olvidaste la contraseña?</a>
-                  </div>
-                  <div class="btn">
-                    <div class="inner">
-                    </div>
-                    <button onclick="login(this.form.nom.value,this.form.contra.value);" type="button">Iniciar Sesion</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="center">
-              <input type="checkbox" id="show1">
-              <label for="show1" class="show-btn"><a  id="label-registro" class="nav-link">Registrarse</a></label>
-              <div class="container1" id="containerRegistro">
-                <label for="show1" class="close-btn fas fa-times" title="close"></label>
-                <div class="text">Registro</div>
-                <form class="form1" id="form_registro"  method="POST">
-                  <div class="data">
-                    <label>Usuario</label>
-                    <input  type="text" required name="nombre">
-                  </div>
-                  <div class="data">
-                    <label>Correo</label>
-                    <input  type="email" required name="email">
-                  </div>
-                  <div class="data">
-                    <label>Contreseña</label>
-                    <input  type="password" required name="contrasena">
-                  </div>
-                  <div class="btn">
-                    <div class="inner">
-                    </div>
-                    <button onclick="registerNewUser(this.form.nombre.value, this.form.email.value, this.form.contrasena.value);" type="button" >Registrarse</button>
-                  </div>
-
-                </form>
-              </div>
-            </div>
-          </li>
+          
+          
 
 
         </ul>

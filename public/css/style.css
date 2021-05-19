@@ -3985,4 +3985,73 @@ section.contact-w3ls button.btn.btn-primary:hover {
   color: white;
   font-size: 20px;
 }
+#body-registrarse{
+  /*background-image: url(../imgs/yamaha_yzf_r1_yamaha_sport_bike_95773_1366x768.jpg);*/
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/recent.jpg");
+  overflow: hidden;
+}
+#h1-registro{
+
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+
+}
+#btn-registrarse{
+  font-family: 'roboto';
+  background: #23074d;  /* fallback for old browsers /
+  background: -webkit-linear-gradient(to right, #cc5333, #23074d);  / Chrome 10-25, Safari 5.1-6 /
+  background: linear-gradient(to right, #cc5333, #23074d); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  color: white;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+
+
+}
+form{
+  background-color: rgb(0, 0, 0);
+  padding: 40px 0;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+
+}
+.form{
+  width: 100%;
+  
+  margin: auto;
+}
+
+form .gru{
+  position: relative;
+  margin: 45px;
+}
+input{
+  background: none;
+  color:  #c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(136, 62, 124);
+}
+
+input:focus{
+  outline: none;
+  color: rgb(255, 255, 255);
+}
+input:focus~label{
+  color: #2196f3;
+}
 
