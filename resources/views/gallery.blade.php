@@ -40,14 +40,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav slide-nav">
-				<li><a id="index" href="javascript:void(0);">Inicio</a></li>
-				<li><a id="about" href="javascript:void(0);">Acerca de</a></li>
+				<li><a id="index" href="/index">Inicio</a></li>
+				<li><a id="about" href="/about">Acerca de</a></li>
 				
             
-            <li class="active current"><a id="gallery" href="javascript:void(0);">Galeria</a></li>
-			<li ><a id = "drivers"  href="javascript:void(0);">Conductores</a></li>
+            <li class="active current"><a id="gallery" href="/gallery">Galeria</a></li>
+			<li ><a id = "drivers"  href="/drivers">Conductores</a></li>
 				
-			<li><a id = "contact"  href="javascript:void(0);">Contacto</a></li>
+			<li><a id = "contact"  href="/contact">Contacto</a></li>
+			<li><a id="registro" href="/registro">Registrarse</a></li>
+          <li><a id="login" href="/login">Iniciar Sesión</a></li>s
 			</ul>
         </div><!--/.nav-collapse -->
     </div>
