@@ -18,7 +18,7 @@
 
            boton.addEventListener("click", ()=>{
             enviarDatos({
-                name:name.value,
+                
                 email:email.value,
                 password:password.value
             });
@@ -28,15 +28,18 @@
             
             axios({
                 method: 'POST',
-                url: 'api/login',
+                url: 'api/auth/login',
                 data:{
                     email:datos.email,
                     password:datos.password
                     }
+                }).catch(function(error){
+                    alert("Error en los datos");
                 }).then((data)=>{
-                  localStorage.setItem("token",data.data.token);
-                  alert("Usuario registrado");
-                  location.href = "/index";
+                    //console.log(data.data.token);
+                    localStorage.setItem("token",data.data.token);
+                    alert("Usuario logueado");
+                    location.href = "/index";
                 });
             }
         }

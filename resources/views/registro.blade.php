@@ -8,14 +8,12 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
         let boton;
-        let name,
-            email,
-            password;
+        let name, email, password, cellphone, address;
         window.onload = () =>{
            boton =  document.getElementById("btn-registrarse");
            name = document.getElementById("input-name");
-           telefono = document.getElementById("input-telefono");
-           direccion = document.getElementById("input-direccion");
+           cellphone = document.getElementById("input-cellphone");
+           address = document.getElementById("input-address");
            email = document.getElementById("input-email");
            password = document.getElementById("input-contraseña");
 
@@ -33,7 +31,7 @@
             
             axios({
                 method: 'POST',
-                url: 'api/registro',
+                url: 'api/auth/registro',
                 data:{
                     name:datos.name,
                     email:datos.email,
@@ -45,7 +43,10 @@
                   localStorage.setItem("token",data.data.token);
                   alert("Usuario registrado");
                   location.href = "/index";
-                });
+                  alert(data.data.address);
+                }).catch(function(error){
+                    alert("error en los datos");
+                })
             }
         }
     </script>
