@@ -46,5 +46,9 @@ Route::get('/api', function () {
     return view('api');
 });
 
+Route::get('/registro', function () {
+    return view('registro');
+});
+
 
 
