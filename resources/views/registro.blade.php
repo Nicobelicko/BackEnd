@@ -42,7 +42,7 @@
                 }).then((data)=>{
                   localStorage.setItem("token",data.data.token);
                   alert("Usuario registrado");
-                  location.href = "/index";
+                  location.href = "/login";
                  
                 }).catch(function(error){
                     alert("error en los datos");
