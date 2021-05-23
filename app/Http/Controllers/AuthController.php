@@ -12,7 +12,7 @@ class AuthController extends Controller
     //
 
     public function registro(Request $request){
-
+        
         $request->validate([
             'name'=> 'required',
             'email'=> 'required|email|unique:users',
@@ -37,7 +37,7 @@ class AuthController extends Controller
     }
 
     public function login(Request $request){
-
+        
         $request->validate([
         'email'=>'required|email|exists:users,email',
         'password'=> 'required|min:6'
@@ -45,6 +45,7 @@ class AuthController extends Controller
         
         if(Auth::attempt(['email'=>$request->email,'password'=>$request->password]))
         {
+            echo "hola";
             $user=Auth::user();
             $token = $user->createToken($user->email.'-'.now());
             return response()->json([
@@ -53,6 +54,7 @@ class AuthController extends Controller
             ]);
         }
         else{
+            
             return response()->json([
             'error'=>"unauthorized"
             ]);

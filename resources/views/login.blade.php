@@ -8,38 +8,37 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
         let boton;
-        let name,
-            email,
-            password;
+        let emailL,
+            passwordL;
         window.onload = () =>{
            boton =  document.getElementById("btn-registrarse");
-           email = document.getElementById("input-email");
-           password = document.getElementById("input-contraseña");
+           emailL = document.getElementById("input-email");
+           passwordL = document.getElementById("input-contraseña");
 
            boton.addEventListener("click", ()=>{
-            enviarDatos({
+            enviarDatosLogin({
                 
-                email:email.value,
-                password:password.value
+                email:emailL.value,
+                password:passwordL.value
             });
            });
 
-           function enviarDatos(datos){
+           function enviarDatosLogin(datos){
             
             axios({
-                method: 'POST',
+                method: 'post',
                 url: 'api/auth/login',
                 data:{
                     email:datos.email,
                     password:datos.password
                     }
-                }).catch(function(error){
-                    alert("Error en los datos");
                 }).then((data)=>{
                     //console.log(data.data.token);
-                    localStorage.setItem("token",data.data.token);
+                    
                     alert("Usuario logueado");
                     location.href = "/index";
+                }).catch(function(error){
+                    alert("Error en los datos");
                 });
             }
         }

@@ -43,7 +43,7 @@
                   localStorage.setItem("token",data.data.token);
                   alert("Usuario registrado");
                   location.href = "/index";
-                  alert(data.data.address);
+                 
                 }).catch(function(error){
                     alert("error en los datos");
                 })
