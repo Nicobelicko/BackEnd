@@ -56,9 +56,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   window.addEventListener("beforeunload", function (e) {
   var confirmationMessage = "\o/";
    localStorage.clear();
-  (e || window.event).returnValue = confirmationMessage;
+  /*(e || window.event).returnValue = confirmationMessage;
                                                            //Gecko + IE
-  return confirmationMessage;                            //Webkit, Safari, Chrome
+  return confirmationMessage;*/                            //Webkit, Safari, Chrome
 });
   </script>
 
