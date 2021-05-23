@@ -52,6 +52,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           alert("Tiene que iniciar sesión para ingresar al api");
       }
     }
+
+  window.addEventListener("beforeunload", function (e) {
+  var confirmationMessage = "\o/";
+   localStorage.clear();
+  (e || window.event).returnValue = confirmationMessage;
+                                                           //Gecko + IE
+  return confirmationMessage;                            //Webkit, Safari, Chrome
+});
   </script>
 
 
