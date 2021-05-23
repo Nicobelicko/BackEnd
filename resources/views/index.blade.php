@@ -32,7 +32,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
   <!-- /css -->
 
+  <script>
+    window.onload = init;
+    var api;
+    function init(){
+    
+    console.log("entra al autorizacion");
+    api = document.getElementById("api");
+    api.addEventListener("click",acceso);
+    }
 
+    function acceso(){
+      console.log("Entra a acceso");
+      let llave = localStorage.getItem("1");
+      if(llave != null){
+          location.href = "/api";
+      }else{
+          alert("Tiene que iniciar sesión para ingresar al api");
+      }
+    }
+  </script>
 
 
 </head>
@@ -63,6 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <li><a id="gallery" href="/gallery">Galeria</a></li>
           <li><a id="drivers" href="/drivers">Conductores</a></li>
           <li><a id="contact" href="/contact">Contacto</a></li>
+          <li><a id="api" href="javascript:void(0)">Api</a></li>
           <li><a id="registro" href="/registro">Registrarse</a></li>
           <li><a id="login" href="/login">Iniciar Sesión</a></li>
           
@@ -358,6 +378,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="js/index.js"></script>
     <script src="js/jarallax.js"></script>
     <script type="text/javascript">
+    <script type="js/autorizacion.js"></script>
       /* init Jarallax */
       $(".jarallax").jarallax({
         speed: 0.6,
