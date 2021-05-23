@@ -35,8 +35,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <script>
     window.onload = init;
     var api;
+    var log = false;
     function init(){
-    
     console.log("entra al autorizacion");
     api = document.getElementById("api");
     api.addEventListener("click",acceso);
@@ -45,8 +45,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     function acceso(){
       console.log("Entra a acceso");
       let llave = localStorage.getItem("1");
-      if(llave != null){
+      if(llave != null || log ){
           location.href = "/api";
+          log = true
       }else{
           alert("Tiene que iniciar sesión para ingresar al api");
       }
