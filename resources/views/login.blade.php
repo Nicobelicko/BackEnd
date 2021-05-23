@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
     <script>
         let boton;
         let emailL,
@@ -34,9 +36,9 @@
                     }
                 }).then((data)=>{
                     //console.log(data.data.token);
-                    
+                    localStorage.setItem("1","logueado");
                     alert("Usuario logueado");
-                    location.href = "/index";
+                    location.href = "/api";
                 }).catch(function(error){
                     alert("Error en los datos");
                 });
@@ -66,6 +68,6 @@
 
         </div>
     </form>
-    <script src="js/main.js" type="text/javascript"></script>
+    <scrip src="js/main.js" type="text/javascript"></scrip>
 </body>
 </html>
