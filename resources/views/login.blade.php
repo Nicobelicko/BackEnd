@@ -37,10 +37,10 @@
                 }).then((data)=>{
                     //console.log(data.data.token);
                     localStorage.setItem("1","logueado");
-                    alert("Usuario logueado");
+                    alert("Inicio de Sesión Exitoso");
                     location.href = "/api";
                 }).catch(function(error){
-                    alert("Error en los datos");
+                    alert("Error en el correo y/o contraseña");
                 });
             }
         }
