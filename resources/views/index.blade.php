@@ -47,7 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       let llave = localStorage.getItem("1");
       if(llave != null || log ){
           location.href = "/api";
-          log = true
+          log = true;
       }else{
           alert("Tiene que iniciar sesión para ingresar al api");
       }
