@@ -7,6 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+## Backend Plataformas
+
+Proyecto final que se complementa con el frontend anteriormente realizado, para su desarrollo  usamos el framework laravel realizando modificaciones en los modelo vistas y configurando el enrutamiento para su funcionamiento con el framework, de igual forma se configura la base de datos para un logeo y registro que esta funcional.
+
+## Configuración 
+
+1) Instalacion de laravel : Se puede instalar  de laragon también a continuación dejamos la documentación y desde allí pueden acceder
+2) Sistema gestor de base de datos: Se puede configurar con laragon o escoger otro que se adapte a la configuración de laravel 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
