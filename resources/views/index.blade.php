@@ -36,10 +36,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     window.onload = init;
     var api;
     var log = false;
+    var llave;
+    var reg;
     function init(){
+    reg = document.getElementById("registro");
+    llave = localStorage.getItem("1");
     console.log("entra al autorizacion");
     api = document.getElementById("api");
     api.addEventListener("click",acceso);
+    if(llave != null){
+        reg.style.display = 'none';
+    }
     }
 
     function acceso(){
@@ -58,6 +65,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    localStorage.clear();
                          //Webkit, Safari, Chrome
 });
+
+
   </script>
 
 

@@ -22,6 +22,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/pogo-slider.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- /css -->
+
+<script>
+    window.onload = init;
+    var api;
+    var log = false;
+    var llave;
+    var reg;
+    function init(){
+    reg = document.getElementById("registro");
+    llave = localStorage.getItem("1");
+    if(llave != null){
+        reg.style.display = 'none';
+    }
+    }
+
+    
+  </script>
 </head>
 <body>
 <!-- navigation -->
